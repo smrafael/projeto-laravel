@@ -14,7 +14,7 @@ Este projeto trata-se de um CRUD de livros, protegido por autenticaçao de usuá
 
 ### Observações
 
-O projeto utiliza por padrão o usuário <code>root/root</code> e a base da dos <code>sistema</code>. Caso deseje mudar esse comportamento, efetuar as modificações no Data Source no arquivo <code>.env</code>.
+O projeto utiliza por padrão o usuário <code>root/root</code> e a base dados de nome <code>sistema</code>. Para mudar esse comportamento, basta efetuar as modificações no Data Source do MySQL no arquivo <code>.env</code>.
 
 ## Configuração
 
