@@ -36,6 +36,6 @@ Laravel, em conjunto com Artisan, é um framework bastante poderoso e completo. 
 
 - <b>Migrations</b> para o versionamento das tabelas do banco de dados;
 - <b>Eloquent ORM</b> para o mapeamento objeto-relacional da entidade Book. Este recurso facilitou bastante as operações que envolviam banco de dados;
-- Utilização do <b>Resource Controller</b> que disponibiliza um conjunto padrão de métodos, que foram utilizados no roteamento das requisições;
-- <b>Auth Middleware</b> para proteção das telas restritas
+- Utilização do <b>Resource Controller</b> que disponibiliza um conjunto padrão de métodos, que foram utilizados no roteamento das requisições. Este controle foi criado através do comando <code>php artisan make:controller BookController --resource</code>
+- Uso do módulo de <b>Auth</b> para proteção das telas restritas e geração das telas de login registro de usuários. Para isso foi utilizado o comando <code>php artisan make:auth</code>
 - <b>Blade Templates</b> para construção de interfaces que possuem lógica de apresentação de conteúdo na tela, com p reaproveitamento de layouts. 
